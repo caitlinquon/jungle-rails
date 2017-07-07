@@ -45,6 +45,8 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'dotenv-rails'
   gem 'pry'
+  gem 'letter_opener'
+  gem 'letter_opener_web'
 end
 
 group :development do
