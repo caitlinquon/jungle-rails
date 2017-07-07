@@ -1,9 +1,9 @@
 <h1>Login!</h1>
 
-<%= form_for @user, url: '/session' do |f| %>
+<%= form_tag session_path, :class => 'form-group' do %>
 
-Email: <%= f.text_field :email %><br>
-Password: <%= f.password_field :password %><br>
-<%= f.submit "Submit" %>
+Email: <%= text_field_tag :email %><br>
+Password: <%= password_field_tag :password %><br>
+<%= submit_tag "Submit" %>
 
 <%end%>

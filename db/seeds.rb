@@ -21,6 +21,15 @@ end
 
 # Let's do this ...
 
+
+## USERS
+user1 = User.create!({
+  first_name: 'Emma',
+  last_name: 'Quon', 
+  email: 'emma@emma.com',
+  password: 'emma'
+})
+
 ## CATEGORIES
 
 puts "Finding or Creating Categories ..."
@@ -29,13 +38,14 @@ cat1 = Category.find_or_create_by! name: 'Apparel'
 cat2 = Category.find_or_create_by! name: 'Electronics'
 cat3 = Category.find_or_create_by! name: 'Furniture'
 
+
 ## PRODUCTS
 
 puts "Re-creating Products ..."
 
 Product.destroy_all
 
-cat1.products.create!({
+prod1 = cat1.products.create!({
   name:  'Men\'s Classy shirt',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('apparel1.jpg'),
@@ -132,5 +142,23 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+#REVIEWS
+
+puts "Creating Reviews...."
+
+Review.destroy_all
+
+prod1.reviews.create!({
+  description: 'This is an amazing book shelf! So stylish!', 
+  rating: 5, 
+  user: user1
+})
+
+prod1.reviews.create!({
+  description: 'This product is just okay, not the best quality.',
+  rating: 2, 
+  user: user1
+}
+)
 
 puts "DONE!"
