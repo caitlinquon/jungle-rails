@@ -4,10 +4,12 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Photos
 
-![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Homepage](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Categories](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Full Cart](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Empty Cart](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Order Receipt](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Email Receipt](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
 
 ## Getting Started
 
