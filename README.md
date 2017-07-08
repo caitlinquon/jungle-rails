@@ -4,12 +4,12 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Photos
 
-![Homepage](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Categories](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Full Cart](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Empty Cart](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Order Receipt](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
-![Email Receipt](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Homepage](https://github.com/caitlinquon/jungle-rails/blob/master/docs/homepage.png)
+![Categories](https://github.com/caitlinquon/jungle-rails/blob/master/docs/categories.png)
+![Full Cart](https://github.com/caitlinquon/jungle-rails/blob/master/docs/full_cart.png)
+![Empty Cart](https://github.com/caitlinquon/jungle-rails/blob/master/docs/empty_cart.png)
+![Order Receipt](https://github.com/caitlinquon/jungle-rails/blob/master/docs/order_receipt.png)
+![Email Receipt](https://github.com/caitlinquon/jungle-rails/blob/master/docs/email_receipt.png)
 
 ## Getting Started
 
