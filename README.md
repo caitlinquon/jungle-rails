@@ -2,8 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Photos
 
-## Setup
+![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+![Create user](https://github.com/aWildOtto/llop/blob/master/docs/createUser.png)
+
+## Getting Started
 
 1. Fork & Clone
 2. Run `bundle install` to install dependencies
