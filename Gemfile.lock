@@ -192,6 +192,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    shoulda-matchers (3.1.1)
     slop (3.6.0)
     spring (1.7.2)
     sprockets (3.7.0)
@@ -249,6 +250,7 @@ DEPENDENCIES
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  shoulda-matchers (~> 3.1)
   spring
   stripe
   turbolinks
